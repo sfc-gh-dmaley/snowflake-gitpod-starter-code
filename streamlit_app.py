@@ -2,7 +2,6 @@ import os
 import streamlit as st
 import snowflake.connector  #upm package(snowflake-connector-python==2.7.0)
  
- 
 # Initialize connection, using st.experimental_singleton to only run once.
 @st.experimental_singleton
 def init_connection():
